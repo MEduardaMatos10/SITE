@@ -50,27 +50,7 @@ background-color: rgb(81, 141, 141);
 
 }
 
-.mitski img{
 
-height: 630px;
-
-
-}
-
-.gato img{
-
-height: 630px;
-
-
-
-}
-
-.bm img{
-
-    height: 630px;
-    
-    
- }
 
 
 footer{
@@ -110,7 +90,7 @@ footer{
     
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
 
 
 
@@ -129,7 +109,7 @@ footer{
 
     .logo img{
 
-        width: 80px;
+        width: 90px;
         margin-top: 30px;
     }
     
@@ -141,17 +121,20 @@ footer{
         display: flex;
         flex-direction: row;
         font-size: 20px; 
-        gap: 30px;
+        gap: 80px;
     }
 
 
     header{
         background-color: black;
         height: 300px;
-        width: 490px;
+        width: 740px;
        
        
     }
+
+
+    
 
     .conteudo{
 
@@ -165,42 +148,23 @@ footer{
    }
 
 
-   .mitski img{
-
-    height: 700px;
-    
-    
-    }
-    
-    .gato img{
-    
-        height: 600px;
-    
-    
-    
-    }
-    
-    .bm img{
-    
-        height: 720px;
-
-    }
         
    .tfinal{
 
     color: white;
+    text-align: center;
 
 
    }
+   
 
    footer{
     background-color: black ;
     height: 80px;
-    width: 490px;
+    width: 740px;
+   }
     
-}
 
-    
 
     .menufinal{
 
@@ -223,7 +187,7 @@ footer{
         
 
     }
-
 }
+
 
 
