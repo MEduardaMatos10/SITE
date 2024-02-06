@@ -1,79 +1,215 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>FELIZ ANIVERSÁRIO</title>
-</head>
-<body>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    <header>
+header{
+    background-color: black;
+}
 
-        <nav class="menu">
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 400px;
+    flex-direction: row-reverse;
+    
+    
+}
 
-            <ul class="lista">
 
-                <li><a href="https://i.pinimg.com/originals/f6/33/9b/f6339b57dcb87c6f18e7cebc2ef41d1a.gif">Faça um desejo....</a></li>
-                <li><a href="https://static.vakinha.com.br/uploads/vakinha/image/3213705/1665698223.955.png?ims=700x410">É para você!!!!</a></li>
+.logo img{
+    width: 80px;
+    margin-top: 5px;
+}
 
-            </ul>
 
-            <figure class="logo">
+.lista{
+    display: flex;
+    color:white;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
 
-                <a href="https://youtube.com/shorts/iZPqOn0YW3U?si=qMtaXdqj43AJ7dei">
-                    <img src="https://64.media.tumblr.com/37e7d393c22113c0d7e68b3243080916/tumblr_prez6ksAc91vsx0p9_500.jpg">
-                </a>
+.lista a{
+    color: white;
+    text-decoration: none;
+}
 
-            </figure>
 
-        </nav>
+.conteudo{
 
-    </header>
+display: flex;
+justify-content: space-between;
+background-color: rgb(81, 141, 141);
 
-<main>
 
-    <section class="conteudo">
+}
 
+.jk img{
+
+height: 600px;
+
+}
+
+
+
+
+
+
+
+.bm img{
+
+    height: 630px;
+    
+    
+ }
+
+
+footer{
+    background-color: black ;
+    height: 20px;
+    
+}
+
+
+.menufinal{
+
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+    
+    
+    
+    
+   
+   
+    
+  
+}
+
+.tfinal{
+   
+    color: white;
+
+   
+    
+}
+
+.ano{
+    color: white;
+    
+    
+}
+
+@media only screen and (max-width: 750px) {
+
+
+
+    .menu {
+        
+        display: flex;
+        gap: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-right: 25px;
+
+        
+        
+        
+    }
+
+    .logo img{
+
+        
+        width: 80px;
+        margin-top: 30px;
+    }
+    
+
+
+    .lista {
+        gap: 30px;
        
-        <figure class="jk">
-
-            <img src="https://i.pinimg.com/736x/f6/c2/db/f6c2dbbcd18267f3829c981c23634dd5.jpg" alt="">
-        </figure>
-
-    </section>
+    }
 
 
-</main>
+    header{
+        background-color: black;
+        height: 200px;
+        width: 600px;
+        position: fixed;
+       
+       
+    }
+
+    .conteudo{
+
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+        
+    
+        
+   }
 
 
+   .jk img{
 
-<footer>
+    height: 400px;
+    
+    
+    }
+    
+    
+        
+   .tfinal{
 
-<nav class="menufinal">
+    color: white;
+    font-size: 15px;
 
 
-    <div class="tfinal"> 
-        <p>Todos os ireitos reservados a Maria Eduarda </p> 
-    </div>
+   }
 
-    <div class="ano">
-
-        <p>-2024-</p>
-
-
-    </div>
+   footer{
+    background-color: black ;
+    height: 80px;
+    width: 600px;
+    
+}
 
     
 
-</nav>
+    .menufinal{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        margin-left: 60px;
+        
+       
+       
+        
+      
+    }
+
+    
+    
+    .ano{
+
+        margin-right: 90px;
+        text-align: center;
+        
+
+    }
+
+}
 
 
-
-
-
-
-
-</footer>
-</body>
-</html>
