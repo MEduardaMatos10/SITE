@@ -12,7 +12,187 @@ header{
 .menu{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 400px;
+    flex-direction: row-reverse;
+    
+    
+}
+
+
+.logo img{
+    width: 80px;
+    margin-top: 5px;
+}
+
+
+.lista{
+    display: flex;
+    color:white;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.lista a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.conteudo{
+
+display: flex;
+justify-content: space-between;
+background-color: rgb(81, 141, 141);
+
+
+}
+
+.jk img{
+
+height: 600px;
+
+}
+
+
+
+
+
+
+
+.bm img{
+
+    height: 630px;
+    
+    
+ }
+
+
+footer{
+    background-color: black ;
+    height: 20px;
+    
+}
+
+
+.menufinal{
+
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+   
+   
+    
+  
+}
+
+.tfinal{
+   
+    color: white;
+
+   
+    
+}
+
+.ano{
+    color: white;
+    
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .menu {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+         /* Zerar a margem para um layout melhor em dispositivos móveis */
+    }
+
+    .logo img {
+        width: 60px;
+        margin-top: 10px; /* Reduzir a margem superior para um espaçamento melhor em telas menores */
+    }
+
+    .lista {
+        
+        gap: 15px;
+        font-size: 15px;
+         /* Reduzir o espaçamento para um melhor ajuste em telas menores */
+    }
+
+    .lista a{
+        color: black;
+        text-align: center;
+        
+    }
+
+    button{
+        height: 30px;
+        border-radius: 10px;
+        border-style: 5px;
+        margin-bottom: 10px;
+        
+    }
+
+
+    header {
+        width: 100%; /* Largura total para um melhor layout em dispositivos móveis */
+    }
+
+    .conteudo {
+        width: 100%; /* Largura total para um melhor layout em dispositivos móveis */
+    }
+
+    .jk img {
+        width: 100%; /* Fazer as imagens ocuparem toda a largura do contêiner */
+        height: auto; /* Manter a proporção original da imagem */
+    }
+
+    footer {
+        width: 100%; /* Largura total para um melhor layout em dispositivos móveis */
+    }
+
+    .menufinal {
+        margin: 0;
+        display: flex;
+        flex-direction: column; 
+        gap: 2px/* Zerar a margem para um melhor layout em dispositivos móveis */
+    }
+
+
+    .tfinal{
+        margin-top: 5px;
+        font-size: 5px;
+        text-align: center;
+    }
+
+
+    .ano {
+        margin: 0; /* Zerar a margem para um melhor layout em dispositivos móveis */
+        text-align: center;
+        font-size: 5px;
+    }
+}
+
     gap: 400px;
     flex-direction: row-reverse;
     
